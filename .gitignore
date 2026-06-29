@@ -1,0 +1,242 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data Science / ML specific
+*.tsv
+*.dat
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+
+# Keep essential CSV files (exceptions)
+!requirements.txt
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+models/checkpoints/
+models/saved/
+
+# Logs and outputs
+logs/
+*.log
+!logs/.gitkeep
+
+# Cache directories
+data/ingestion/.cache/
+.cache/
+*.cache
+
+# Models directory (keep structure, ignore model files)
+models/
+!models/.gitkeep
+
+# Output directory (keep daily ops structure, ignore content)
+output/
+!output/.gitkeep
+!output/daily_operations/
+!output/health_checks/
+output/daily_operations/*.json
+output/health_checks/*.json
+
+# Features (keep structure, data files can be regenerated)
+features/*.csv
+!features/.gitkeep
+!features/regime_timeline_history.csv
+
+# Data files (raw data can be re-downloaded)
+data/ingestion/*.csv
+data/processed/*.csv
+!data/ingestion/.gitkeep
+!data/processed/.gitkeep
+
+# Raw NSE/VIX data exports
+data/*.csv
+
+# Macro data
+data/macro/
+data/cross_market/
+
+# Market regime processed data
+market_regime/data/
+market_regime/features/*.csv
+market_regime/features/*.json
+!market_regime/features/.gitkeep
+
+# GitHub Actions runner
+.github/runners/
+
+# frontend lock file and node_modules
+frontend/node_modules/
+frontend/package-lock.json
+
+# Q1 research/analysis scripts (not part of public codebase)
+market_regime/scripts/q1_*.py
+behavior_regime/scripts/q1_*.py
+
+# Logs (all subdirectories)
+logs/
+logs/**
+
+# Large documentation files
+*.pdf
+!docs/.gitkeep
+
+# Metadata files with absolute paths
+features/feature_build_metadata.json
+
+kaggle_upload/
+*.out
+*.toc
+*.aux
