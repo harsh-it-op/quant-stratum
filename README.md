@@ -76,7 +76,7 @@ Data Ingestion → Feature Engineering → HMM Training → Regime Prediction
 
 ```bash
 # Clone repository
-git clone https://github.com/<your-username>/ML-Regime-Classifier.git
+git clone https://github.com/harsh-it-op/quant-stratum.git
 cd ML-Regime-Classifier
 
 # Create virtual environment
